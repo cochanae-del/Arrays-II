@@ -1,7 +1,8 @@
 // Write your code below
-var words = [ "Apple", "Berry", "Cherry", "Banana"]
-function findElement(words,word) {
-   for (var i = 0; i < words.length; i = i + 1); {
+var words = ["Apple", "Berry", "Cherry", "Banana"]
+
+function findElement(words, word) {
+   for (var i = 0; i < words.length; i++); {
 
         if (words[i] === word)
         return true;
@@ -9,5 +10,4 @@ function findElement(words,word) {
         return false;
 }  
    
-       console.log(findElement(words, "Orange"));
-       
+       console.log(findElement("Cherry"));
